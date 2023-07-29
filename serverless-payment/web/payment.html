@@ -1,0 +1,28 @@
+<!--
+ * @Author: Emiria486 87558503+Emiria486@users.noreply.github.com
+ * @Date: 2023-07-29 18:39:06
+ * @LastEditTime: 2023-07-29 18:50:42
+ * @LastEditors: Emiria486 87558503+Emiria486@users.noreply.github.com
+ * @FilePath: \serverless-payment\web\payment.html
+ * @Description: 支付表单示例，不是lambda函数的一部分，只供前端web页面使用
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+</head>
+
+<body>
+    <form action="<paste-here-your-lambda-function-url>" method="post">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="<your-stripe-public-key>"
+            data-name="Demo site" data-description="2 widgets"
+            data-image="https://stripe.com/img/documentation/checkout/marketplace.png" data-locale="auto"
+            data-zip-code="true" data-currency="usd">
+        </script>
+    </form>
+</body>
+
+</html>

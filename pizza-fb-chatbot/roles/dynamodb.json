@@ -1,0 +1,13 @@
+{
+    "version": "20223-7-25",
+    "statement": [{
+        "action": [
+            "dynamodb:scan",
+            "dynamodb:getItem",
+            "dynamodb:putItem",
+            "dynamodb:updateItem"
+        ],
+        "effect": "allow",
+        "resource": "*"
+    }]
+}
