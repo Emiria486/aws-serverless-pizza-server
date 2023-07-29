@@ -708,7 +708,8 @@ api.get('upload-url', (request) => {
 
 ## 3.微服务方式--生成缩略图
 
-![](C:\Users\刘永杰\Desktop\微服务.jpg)
+![微服务](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/1b00c15c-3170-4061-b136-07a397161a19)
+
 
 创建一个接收事件，lambda上下文和回调的处理函数
 
@@ -867,7 +868,8 @@ module.exports = convert
 
 ## 1.聊天机器人的工作流程
 
-![](C:\Users\刘永杰\Desktop\聊天机器人.jpg)
+![聊天机器人](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/aa6d0bc0-3bfa-48f6-a6af-1b199bf5df1d)
+
 
 ## 2.创建bot的代码工作
 
@@ -915,9 +917,11 @@ module.exports = api
 
 
 
-![](C:\Users\刘永杰\Desktop\bot builder工作流程.jpg)
+![bot builder工作流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/b8a75d57-b2a4-4d6f-bfcc-c037ff3b3dac)
 
-![](C:\Users\刘永杰\Desktop\bot builder函数.jpg)
+
+![bot builder函数](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/9a658996-e693-4d77-820a-0a2992e3ad97)
+
 
 # 🍕更强大的聊天bot
 
@@ -925,11 +929,13 @@ module.exports = api
 
 机器人流程
 
-![](C:\Users\刘永杰\Desktop\bot-交付.jpg)
+![bot-交付](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/50dbc480-982d-4316-877a-c99bc9bec3b7)
+
 
 交付webhook流程
 
-![](C:\Users\刘永杰\Desktop\交付webhook流程.jpg)
+![交付webhook流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/213784ad-643d-487c-80e8-6c32d25e058f)
+
 
 ```js
 
@@ -1074,7 +1080,8 @@ module.exports = api
 
 SMS-bot流程
 
-![](C:\Users\刘永杰\Desktop\smsbot流程.jpg)
+![smsbot流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/64264e9f-a42d-43d5-bf42-251af9b1ffd2)
+
 
 ```js
 //这是sms聊天机器人的入口文件
@@ -1130,7 +1137,8 @@ module.exports = api
 
 Alexa允许自定义skill，skill是Alexa可以学习的新命令，相当于应用程序
 
-![](C:\Users\刘永杰\Desktop\Alexa工作原理图.jpg)
+![Alexa工作原理图](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/8d6851d4-612f-436a-8250-f971d021cb8b)
+
 
 Alexa注意点
 
@@ -1138,16 +1146,19 @@ Alexa注意点
 - Alexa对话是基于命令的，不允许自由对话，消息必须被识别为预定义的命令之一
 - 语音助手通常想要唤醒词，用于指示
 
-![](C:\Users\刘永杰\Desktop\Alexa调用图.jpg)
+![Alexa调用图](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/75749bf4-a269-4259-aa4b-1b480ea2f54b)
 
-![](C:\Users\刘永杰\Desktop\alexa skill的调用和解析流程.jpg)
+
+![alexa skill的调用和解析流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/b8b49a6b-1eb3-41d9-af53-e54a9b063189)
+
 
 ```
 意图（intent） 		样本话语列表		自定义插槽（slot） 
 OrderPizza		I would like to order	{pizza}
 ```
 
-![](C:\Users\刘永杰\Desktop\skill流程.jpg)
+![skill流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/17daf1db-d531-4363-960a-d042bf978139)
+
 
 ```
 								Alexa请求类型
@@ -1773,7 +1784,8 @@ describe("API", () => {
 
 
 
-![](C:\Users\刘永杰\Desktop\stripe收费流程.jpg)
+![stripe收费流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/3f2eb60c-f160-40d5-8ffe-f0dc6411d357)
+
 
 ## 2.实现支付服务
 
@@ -1933,7 +1945,8 @@ module.exports = {
 
 ## 1.无服务器express应用工作流程
 
-![](C:\Users\刘永杰\Desktop\无服务器express应用流程.jpg)
+![无服务器express应用流程](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/c4e2783a-f609-42d3-b310-5e77ea53d9bf)
+
 
 
 
@@ -2060,7 +2073,8 @@ exports.handler = (event, context) => awsServerlessExpress.proxy(server, event, 
 ```
 
 # 🚀项目总结
+![总体架构图](https://github.com/Emiria486/aws-serverless-pizza-server/assets/87558503/44d5d234-508d-4fcf-a346-9c32c8e1f517)
 
-![](C:\Users\刘永杰\Desktop\总体架构图.jpg)
+
 
 ​																														（总体架构图）
